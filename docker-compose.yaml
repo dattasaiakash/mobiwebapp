@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  akashwebapp:
+    image: akashmobiweb:appv1
+    build: .
+    container_name: akashwebc1
+    ports:
+      - 4578:80
+    restart: always
